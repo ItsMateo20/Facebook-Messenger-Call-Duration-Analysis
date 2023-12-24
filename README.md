@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script, along with the accompanying README, was created by **[OpenAI's language model](chat.openai.com)**. The script analyzes Facebook Messenger data to calculate the total call duration across conversations. It reads JSON files containing message data and extracts call durations for analysis.
+This Python script, along with the accompanying README, was created by **[OpenAI's language model](chat.openai.com)**. The script analyzes Facebook Messenger data. It reads JSON files containing message data and extracts data for analysis.
 
 ## Preview
 
@@ -11,6 +11,9 @@ You can preview the script function on the page at **[https://itsmateo20.github.
 
 ## Features
 
+- Shows your most active day (website only)
+- Shows how much calls each user has made (website only)
+- Shows how much words each user has sent (website only)
 - Calculates total call duration from multiple JSON files.
 - Provides a user-friendly interface to select the folder containing Messenger JSON files.
 
