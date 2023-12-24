@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Messenger Data Analyzer</title>
+        <link rel="stylesheet" type="text/css" href="./src/styles.css">
+    </head>
+
+    <body>
+        <h1>Messenger Data Analyzer</h1>
+
+        <div class="button-container">
+            <label for="fileInput" class="button">Select Files</label>
+            <input type="file" id="fileInput" multiple accept=".json" style="display:none" />
+
+            <button type="button" onclick="runAnalysis()">Run Analysis</button>
+        </div>
+
+        <p id="result"></p>
+
+        <footer>
+            <p>
+                Messenger Data Analyzer &copy; <span id="currentYear"></span> | Created by OpenAI's GPT-3 |
+                <a href="https://github.com/ItsMateo20/Facebook-Messenger-Call-Duration-Analysis" target="_blank">Source
+                    Code</a> |
+                This project is not affiliated in any way with Meta Inc.
+            </p>
+        </footer>
+
+        <script src="./src/CallDuration.js"></script>
+        <script src="./src/CurrentYear.js"></script>
+    </body>
+
+</html>

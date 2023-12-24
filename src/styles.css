@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label,
+button {
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+p {
+    transition: 0.3s;
+    margin: 20px;
+    padding: 15px;
+    background-color: #ddd;
+    color: #333;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    color: white;
+    padding: 10px;
+}
