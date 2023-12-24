@@ -9,7 +9,6 @@ This Python script, along with the accompanying README, was created by **[OpenAI
 You can preview the script function on the page at **[https://itsmateo20.github.io/](https://itsmateo20.github.io/Facebook-Messenger-Call-Duration-Analysis/)** that is also made by **[OpenAI's language model](chat.openai.com)**
 ![image](https://github.com/ItsMateo20/Facebook-Messenger-Call-Duration-Analysis/assets/84156177/9ad6d7b7-8f66-4a72-9f4d-3acd9096799f)
 
-
 ## Features
 
 - Calculates total call duration from multiple JSON files.
@@ -19,6 +18,7 @@ You can preview the script function on the page at **[https://itsmateo20.github.
 
 - Python 3.8 or above
 - Dependencies are listed in `requirements.txt`
+- Data download from [facebook](https://accountscenter.facebook.com/info_and_permissions/dyi/)
 
 ## Usage
 
@@ -32,7 +32,7 @@ You can preview the script function on the page at **[https://itsmateo20.github.
 3. **Select conversation folder containing the message_*.json files**
 4. **Duration gets outputed in the console.**
 
-**Full script:**
-```bash
-pip install -r requirements.txt & python main.py
-```
+   **Full script:**
+   ```bash
+   pip install -r requirements.txt & python main.py
+   ```
